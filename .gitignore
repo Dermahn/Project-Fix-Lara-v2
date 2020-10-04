@@ -1,0 +1,17 @@
+#Trash
+*_log.txt
+*.log
+LastExtraction.lst
+shot***.bmp
+*.mem
+LastExtraction.lst
+Last_Crash_*.txt
+savegame.*
+*.lnk
+DETECTED CRASH.txt
+db_patches_crash.bin
+Crash_Report_*.txt
+*_warm_up_log.txt
+
+#Folders
+/old

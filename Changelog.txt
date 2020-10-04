@@ -1,0 +1,25 @@
+Fix Lara v2
+
+Sound Effects:
+- Deleted duplicated surfacing sound effect (114)
+- Added missing sound effects to the run->sprint transitions (224, 225)
+- Added footstep sounds to the push and pull animations (122, 123)
+- Added missing sounds to Sequence Switches (316)
+- Added missing sounds to crowbar door animation (403)
+- Added missing sounds to crowbar pickup animation (419)
+- Added missing sounds to crowbar switch animation (420)
+- Added missing sounds to the Poseidon Statue puzzle (423)
+
+Missing Set Free Hands command:
+- Using the sequence switches (Underneath the Sphinx) no longer disables the action button (316)
+- Getting off vertical poles no longer disables the action button (327, 330, 342)
+- Prying objects off walls with the crowbar no longer disables the action button (419)
+- Using crowbar switches no longer disables the action button (420)
+- Picking up items from pedestals no longer disables the action button (424, 425)
+
+Missing Set Position effect:
+- Lara no longer teleports forward when getting off vertical poles (342)
+- Lara now keeps her position instead of teleporting back to the center of the square after using the Poseidon statue (423)
+
+-8 439 -7
+-5 436 -194
