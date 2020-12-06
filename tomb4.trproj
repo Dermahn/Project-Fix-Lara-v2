@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <Name>fixlaranew</Name>
+  <Name>Project-Fix-Lara-v2</Name>
   <GameVersion>TRNG</GameVersion>
   <DefaultLanguage>English</DefaultLanguage>
   <LaunchFilePath>$(ProjectDirectory)\tomb4.exe</LaunchFilePath>

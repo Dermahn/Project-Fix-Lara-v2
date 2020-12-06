@@ -1,0 +1,42 @@
+﻿;********************************************************************
+;                                                                   *
+;                       Project Fix Lara v2.0.0                     *
+;                             2020-12-06                            *
+;           https://github.com/Dermahn/Project-Fix-Lara-v2          *
+;                                                                   *
+;********************************************************************
+; This script file contains various little bug fixes.
+; Place it in your script folder alongside your script.txt file.
+; You can enable the fixes by adding: #INCLUDE "bugfix.txt"
+; to every [Level] block.
+
+;====================================================================
+;                              Animations
+;====================================================================
+; Enables the Slide -> Run animation. Simply press UP when you reach
+; the end of a slope.
+Animation=	246, KEY1_UP, IGNORE, IGNORE, ENV_FRAME_NUMBER, 0, IGNORE, -71
+
+; Enables the crawlspace roll.
+; Adjust Crawllspace_Roll_MultEnv if it conflicts with already
+; existing MultEnvCondition commands in your script.
+#DEFINE Crawlspace_Roll_MultEnv 1
+Animation= 			218, IGNORE, $4000, FAN_KEEP_NEXT_STATEID + FAN_SET_FREE_HANDS_TEMP, ENV_MULT_CONDITION, Crawlspace_Roll_MultEnv, IGNORE, -222, -353, -354
+MultEnvCondition= 	Crawlspace_Roll_MultEnv, ENV_NO_BLOCK_IN_FRONT, 256, IGNORE, ENV_NON_TRUE + ENV_HOLE_FLOOR_IN_FRONT, 512, IGNORE
+
+
+;====================================================================
+;                            Weapon Fixes
+;====================================================================
+; This sets the Grenade Launcher holster frame to 15.
+; It is frame 21 without this line, which is way too late.
+Customize=	CUST_WEAPON, GRENADE_GUN_ITEM, IGNORE, IGNORE, IGNORE, IGNORE, IGNORE, IGNORE, IGNORE, 15, IGNORE, IGNORE, IGNORE, IGNORE, IGNORE, IGNORE, IGNORE, IGNORE, IGNORE, IGNORE
+
+
+;====================================================================
+;                           Graphic Fixes
+;====================================================================
+; This creates a clear inventory background.
+; It speeds up the inventory opening process significantly on modern
+; computers and looks cleaner.
+Customize=	CUST_BACKGROUND, BKGDT_INVENTORY, BKGDF_KEEP_GAME_SCREEN, IGNORE, IGNORE

@@ -1,4 +1,4 @@
-LARA_FEET:              foot01 foot02 foot03 foot04     VOL44   P V N W   		PIT15   	#g
+LARA_FEET:              foot01 foot02 foot03 foot04     VOL44   P V N W   		PIT15   #g
 LARA_CLIMB2:		clim_up2			VOL70	  V 		PIT18	RAD13	#g
 LARA_NO:		lara_no				VOL50	    			RAD13	#g #t
 LARA_SLIPPING:		slipping			VOL10	      		PIT60	RAD13	#g
@@ -60,7 +60,7 @@ RATCHET_1SHOT:		ratch_02			VOL60	P V			RAD13	#c #l #Tu
 WATER_LOOP_NOTINUSE:	l_wloop				VOL50	      L 	PIT-20	RAD09	
 UNDERWATER:		undwatr				VOL35	      L		PIT-60		#a #b #c #d #e #f #h #i #j #l #m #n #o #p #q #r #s #T #u #v #w #x #z #A #B #C #E #F #H #I #J #K #L #M #N #Tu
 UNDERWATER_SWITCH:      uw_swt                          VOL70   P                               #j #B #Ti
-LARA_PICKUP:            
+LARA_PICKUP:            pickup				VOL20					#g           
 PUSHABLE_SOUND:		l_pshblk			VOL30	      L			RAD10	#a #b #c #d #e #f #h #i #j #l #m #n #o #p #q #s #T #u #v #w #x #y #z #A #B #C #E #F #H #I #J #K #L #M #N #Ti #Tu
 DOOR_GENERAL:		gen_door			VOL80	P V		PIT20		#n #o #w #x #y #A #F #H #I #K
 HELICOPTER_LOOP:	l_chop				VOL90	      L			RAD20	#n	
@@ -214,10 +214,10 @@ SAVE_CRYSTAL:		save				VOL60			PIT30
 HORSE_RICOCHETS:	hrs_rico			VOL40	P V	CH50	PIT35		#N
 METAL_SHUTTERS_SMASH:	shut_sms			VOL80			PIT-40	RAD10	
 GEM_DROP_ON_FLOOR:	gem_drop			VOL80	P V		PIT65	RAD05	#g
-SCORPION_SCREAM:	sc_scrm				VOL90	P V	CH85	PIT55	RAD08	#F #H #K
-SCORPION_FEET:		sc2 sc3 sc6 sc7			VOL80	P V	CH90	PIT70	RAD08	#F #H #K
-SCORPION_CLAWS:		sc_clk1	sc_clk2			VOL70	P V		PIT80	RAD08	#F #H #K
-SCORPION_TAIL_WHIP:	sc_whip				VOL90	P V		PIT70	RAD08	#F #H #K
+SCORPION_SCREAM:	sc_scrm				VOL90	P V	CH85	PIT55	RAD08	#F #H #K #T1
+SCORPION_FEET:		sc2 sc3 sc6 sc7			VOL80	P V	CH90	PIT70	RAD08	#F #H #K #T1
+SCORPION_CLAWS:		sc_clk1	sc_clk2			VOL70	P V		PIT80	RAD08	#F #H #K #T1
+SCORPION_TAIL_WHIP:	sc_whip				VOL90	P V		PIT70	RAD08	#F #H #K #T1
 SCORPION_SMALL_FEET:    sc2 sc6                         VOL45   P V     CH80    PIT80   RAD06   #g
 METAL GATE OPEN:	smsh_up				VOL70			PIT-13	RAD10	
 HORSE_TROTTING:		hrs_f1 hrs_f2 hrs_f3 hrs_f4 	VOL50			PIT-20		#u
@@ -274,7 +274,7 @@ SIREN_NOIZES:		sir_fx1				VOL99	P V	CH25	PIT30	RAD15	#q #r
 SIREN_ATTACK:		sir_atk				VOL99			PIT20	RAD13	#q #r
 SIREN_DEATH:		sir_die				VOL99	P 		PIT40	RAD13	#q #r
 SIREN_GEN_NOISES:	sir_bz1 			VOL99	P V	CH90	PIT90	RAD13	#q #r
-SETT_SIREN_PLASMA:	gen_plas			VOL99	P			RAD20	#q #r #N
+SETT_SIREN_PLASMA:	gen_plas			VOL99	P			RAD20	#q #r #N #T1
 HAMMER_HEAD_ATK:	ham_head			VOL88	  V		PIT-30	RAD05	#q
 SMALL_DOOR_SUBWAY:	sml_d				VOL50			PIT-20	RAD20	#y
 TRAIN_DOOR_OPEN:	trdr_ope			VOL85	P		PIT05	RAD12	#n
@@ -294,12 +294,12 @@ FOOTSTEPS_WOOD:		fs_wd1 fs_wd2			VOL20	  V		PIT-20		#g
 FOOTSTEPS_MARBLE:	fs_mb2 fs_mb3 fs_mb4		VOL18	P  		PIT55		
 FOOTSTEPS_METAL:	fs_met1 fs_met2			VOL25	  V		PIT-15	RAD06	#g
 GEN_SPHINX_DOORTHD:	hvy_fall			VOL60	P		PIT-25	RAD10	#m
-SETT_PLASMA_1:		set_plas			VOL90	P		PIT-30	RAD20	#N
-SETT_BOLT_1:		set_bolt			VOL99			PIT50	RAD20	#N
-SETT_FEET:		set_f1				VOL55	P V		PIT40	RAD13	#u #N
-SETT_NRG_CHARGE:	set_chrg			VOL99			PIT60	RAD20	#N
-SETT_NRG_CHARGE2:	set_chg2			VOL99			PIT50	RAD20	#N
-HORSEMAN_TAKEHIT:	hrs_tkht			VOL88	P V		PIT20	RAD13	#u
+SETT_PLASMA_1:		set_plas			VOL90	P		PIT-30	RAD20	#N #T1
+SETT_BOLT_1:		set_bolt			VOL99			PIT50	RAD20	#N #T1
+SETT_FEET:		set_f1				VOL55	P V		PIT40	RAD13	#u #N #T1
+SETT_NRG_CHARGE:	set_chrg			VOL99			PIT60	RAD20	#N #T1
+SETT_NRG_CHARGE2:	set_chg2			VOL99			PIT50	RAD20	#N #T1
+HORSEMAN_TAKEHIT:	hrs_tkht			VOL88	P V		PIT20	RAD13	#u 
 HORSEMAN_WALK:		hrsm_f1 hrsm_f2			VOL50	P V		PIT30	RAD10	#u
 HORSEMAN_GRUNT:		hrs_atak			VOL97	  V	CH50	PIT10	RAD13	#u
 HORSEMAN_FALL:		hrs_fall			VOL90	P 		PIT10	RAD13	#u
@@ -314,13 +314,13 @@ BLADES_CLASH_LOUD:	trapbld2			VOL95	P 		PIT60	RAD13	#c #l #m #r #E #H
 BLADES_CLASH_QUIET:	trapbld2			VOL25	P 		PIT60	RAD13	#c #l #m #r
 HAMMER_TRAP_BANG:	traphamm			VOL99	p		PIT-50	RAD15	#i #l #B
 DOOR_BIG_STONE:		dr_bgsto			VOL60			PIT-50	RAD08	#g
-SETT_BIG_ROAR:		set_roar	 		VOL98	P V	CH70		RAD25	
+SETT_BIG_ROAR:		set_roar	 		VOL98	P V	CH70		RAD25	#T1
 BABOON_CHATTER:		maq_stnd			VOL50		CH30	PIT-50	RAD10	#I
 BABOON_ROLL:		rolling				VOL30			PIT30	RAD10	#I
 SWOOSH_SWIRLY_DOUBLE:	2xswsh				VOL50	  V		PIT-10	RAD10	#d
 DOOR_SETTDOOR_SQK:	setdrmt1			VOL85			PIT-55	RAD10	#N
 DOOR_SETTDOOR_CLANK:	setdrmt2			VOL95			PIT10	RAD10	#N
-SETT_JUMP_ATTACK:	setgrnt1			VOL99	P 	CH70	PIT-50	RAD25	#N
+SETT_JUMP_ATTACK:	setgrnt1			VOL99	P 	CH70	PIT-50	RAD25	#N #T1
 JOBY_BLOCK:		joby_blk			VOL60			PIT46	RAD08	#L #N
 SETT_TAKE_HIT:		set_hit				VOL99	P 		PIT-20	RAD25	#N
 DART_SPITT:             dart				VOL50   P V		PIT50   RAD03	#a #b #c #d #o #Tu  

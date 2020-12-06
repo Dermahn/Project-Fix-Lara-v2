@@ -1,14 +1,18 @@
 Fix Lara v2
 
 Sound Effects:
-- Deleted duplicated surfacing sound effect (114)
-- Added missing sound effects to the run->sprint transitions (224, 225)
+- Removed hardcoded duplicated surfacing sound effect (FLEP)
 - Added footstep sounds to the push and pull animations (122, 123)
+- Added a-ha sound effect to pickup animations (135, 291, 292, 424, 425)
+- Added missing sound effects to the run->sprint transitions (224, 225)
+- Added missing sound effects to hang->crawlspace animation (287)
 - Added missing sounds to Sequence Switches (316)
+- Fixed sounds while climbing around corners (363, 365, 367, 369)
 - Added missing sounds to crowbar door animation (403)
 - Added missing sounds to crowbar pickup animation (419)
 - Added missing sounds to crowbar switch animation (420)
 - Added missing sounds to the Poseidon Statue puzzle (423)
+- Added sound effects to the Scorpion and Seth death animations (442, 443)
 
 Missing Set Free Hands command:
 - Using the sequence switches (Underneath the Sphinx) no longer disables the action button (316)
@@ -21,5 +25,28 @@ Missing Set Position effect:
 - Lara no longer teleports forward when getting off vertical poles (342)
 - Lara now keeps her position instead of teleporting back to the center of the square after using the Poseidon statue (423)
 
--8 439 -7
--5 436 -194
+Incorrectly rotated body parts:
+- Fixed Lara's arm in crawlspace roll animation (218, 220)
+
+Additional Items:
+- After opening doors with the crowbar Lara now puts the crowbar away at the correct frame (403)
+- Lara now puts away her crowbar at the correct frame after using a crowbar switch (420)
+- Lara now puts away her Grenade Gun at the correct frame (Script)
+- Added Shotgun idle reload animation (Shotgun 002, Shotgun 005)
+- Fixed Torch throw away animation (Torch 001)
+
+Enabled Animations:
+- Enabled slide to run animation (Script)
+- Enable roll-out-of-crawlspace animation (FLEP)
+- Enable crawlspace pickup animation (FLEP)
+- Enabled crawlspace roll (Script)
+
+Graphical Bugs:
+- Fixed inventory background (Script)
+- Fixed particle blending mode (FLEP)
+
+Miscellaneous:
+- Fixed Binoculars animation State-ID (441)
+- Fixed Medipack Hotkeys bug (FLEP)
+- Fixed Wade->Run transition in shallow water (FLEP)
+- Changed bullet hit sound effect from Underwater_Door to Lara_Injury (FLEP)

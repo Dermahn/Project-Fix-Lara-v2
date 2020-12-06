@@ -27,6 +27,19 @@ LoadCamera= 0, 0, 0, 0, 0, 0, 255
 Level=      DATA\TITLE, 104
 
 [Level]
-Name= Fix Lara Test Level
+#INCLUDE "bugfix.txt"
+
+Name= 		Fix Lara Test Level
+Equipment=	SHOTGUN_ITEM, 1
+Equipment=	SHOTGUN_AMMO1_ITEM, 50
+Equipment=	UZI_ITEM, 1
+Equipment=	UZI_AMMO_ITEM, 100
+Equipment=	SIXSHOOTER_ITEM, 1
+Equipment=	SIXSHOOTER_AMMO_ITEM, 100
+Equipment=	GRENADE_GUN_ITEM, 1
+Equipment=	GRENADE_GUN_AMMO1_ITEM, 50
+Equipment=	CROSSBOW_ITEM, 1
+Equipment=	CROSSBOW_AMMO1_ITEM, 100
+Equipment=	LASERSIGHT_ITEM, 1
 LoadCamera= 0, 0, 0, 0, 0, 0, 255
 Level=      DATA\TEST, 255

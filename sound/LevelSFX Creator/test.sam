@@ -46,6 +46,7 @@ f2f_hitg.wav
 back_jm1.wav
 back_jm3.wav
 back_jm2.wav
+pickup.wav
 lar_th1.wav
 lar_th2.wav
 swoosh1.wav
@@ -81,6 +82,14 @@ thun_rum.wav
 swoosh3.wav
 sk_swd2.wav
 gem_drop.wav
+sc_scrm.wav
+sc2.wav
+sc3.wav
+sc6.wav
+sc7.wav
+sc_clk1.wav
+sc_clk2.wav
+sc_whip.wav
 sc2.wav
 sc6.wav
 crossbow.wav
@@ -89,6 +98,7 @@ swch_01.wav
 swave_ex.wav
 dor_thud.wav
 sml_swt.wav
+gen_plas.wav
 crysmash.wav
 fs_mud1.wav
 fs_mud2.wav
@@ -100,7 +110,14 @@ fs_wd1.wav
 fs_wd2.wav
 fs_met1.wav
 fs_met2.wav
+set_plas.wav
+set_bolt.wav
+set_f1.wav
+set_chrg.wav
+set_chg2.wav
 dr_bgsto.wav
+set_roar.wav
+setgrnt1.wav
 crowgem.wav
 cbar_clk.wav
 sqk1.wav
