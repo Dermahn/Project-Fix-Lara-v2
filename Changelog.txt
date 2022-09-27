@@ -1,5 +1,28 @@
 Fix Lara v2
 
+Adjusted Sound Effects:
+- (160) STAND_TO_LADDER
+- (161) LADDER_UP
+- (162) LADDER_UP_STOP_RIGHT
+- (163) LADDER_UP_STOP_LEFT
+- (166) LADDER_DOWN_STOP_LEFT
+- (167) LADDER_DOWN_STOP_RIGHT
+- (168) LADDER_DOWN
+- (170) LADDER_RIGHT
+- (171) LADDER_LEFT
+
+Adjusted End Frame:
+- (006) RUN_START - fixes bug introduced in previous version, where Lara would sometimes fall off the edge when doing a running jump
+
+Adjusted Effects:
+- (207) RUN_JUMP_ROLL_START and (209) RUN_JUMP_ROLL_END - fixes incorrect rotation during the mid-air roll
+- (210) JUMP_FORWARD_ROLL_START and (211) JUMP_FORWARD_ROLL_END - fixes incorrect rotation during the mid-air roll
+- (212) JUMP_BACK_ROLL_START and (213) JUMP_BACK_ROLL_END - fixes incorrect rotation during the mid-air roll
+
+Deleted Frames:
+- (207) RUN_JUMP_ROLL_START - makes mid-air roll smoother
+- (212) JUMP_BACK_ROLL_START - makes mid-air roll smoother
+
 2021-03-20
 Adjusted Sound Effects:
 - (000) RUN
