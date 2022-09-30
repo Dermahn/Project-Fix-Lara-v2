@@ -1,6 +1,6 @@
 # TRLE - Project Fix Lara <!-- omit in toc -->
 
-This project aims to fix all of the little bugs and oddities in Lara's animations. It should be used as the basis for every new project before Lara's animations are altered in any way.
+This project aims to fix all of the little bugs and oddities in Lara's animations. While it is sometimes impossible to know what the devolopers intended, the project aims to to stick as close to the base animations as possible. However, it is impossible to avoid subjective changes. Project Fix Lara should merely be uses as a basis for every new project, before new animations are added and old animations are altered to fit each builder's personal style.
 
 # Table of contents <!-- omit in toc -->
 - [1. Installation](#1-installation)
@@ -39,10 +39,26 @@ The Torch requires some additional work if you're **not** using the default Lara
 4) Go to **Animation -> Import...** and replace the same animations we just exported.
 
 ## 1.4. Applying FLEP Patches
-To be written...
+The FLEP Presets file included in the download enables some bug fixes. These patches are entirely optional but highly recommended.
+1) [Download](https://www.tombraiderforums.com/showthread.php?t=227064) FLEP and and follow the installation instructions.
+2) Click on **Load Presets** and load [tools\flep\bugfix.fps](tools/flep/bugfix.fps).
+3) Click on **Modify**.
 
 ## 1.5. Using TRNG Scripts
-To be written...
+Several TRNG scripts are included to fix some minor bugs. These are, once again, entirely optional but highly recommended.
+1) Move [script\bugfix.txt](script/bugfix.txt) to your Script folder.
+2) Open **TombIDE** or **NG Center**.
+3) Locate your level, starting with **[Level]**
+4) Add the following line: #INCLUDE "bugfix.txt"
+
+Example Script:
+```
+[Level]
+#INCLUDE "bugfix.txt"
+Name= My First Level
+LoadCamera= 0, 0, 0, 0, 0, 0, 255
+Level= data\MyFirstLevel, 100
+```
 
 
 # 2. FAQ
