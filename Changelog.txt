@@ -1,4 +1,12 @@
 ====================================
+Project Fix Lara v2.4.0 - 2023-02-03
+====================================
+
+LARA
+- Fixed Lara not being able to draw guns after getting off the tightrope in animations (454) TIGHTROPE_FALL_LEFT, (457) TIGHTROPE_FALL_RIGHT, and (459) TIGHTROPE_FINISN
+- Renamed (459) TIGHTROPE_FINISN to (459) TIGHTROPE_FINISH
+
+====================================
 Project Fix Lara v2.3.0 - 2022-10-29
 ====================================
 
