@@ -41,12 +41,12 @@ The Torch requires some additional work if you're **not** using the default Lara
 ## 1.4. Applying FLEP Patches
 The FLEP Presets file included in the download enables some bug fixes. These patches are entirely optional but highly recommended.
 1) [Download](https://www.tombraiderforums.com/showthread.php?t=227064) FLEP and and follow the installation instructions.
-2) Click on **Load Presets** and load [tools\flep\bugfix.fps](tools/flep/bugfix.fps).
+2) Click on **Load Presets** and load [FLEP\bugfix.fps](FLEP/bugfix.fps).
 3) Click on **Modify**.
 
 ## 1.5. Using TRNG Scripts
 Several TRNG scripts are included to fix some minor bugs. These are, once again, entirely optional but highly recommended.
-1) Move [script\bugfix.txt](script/bugfix.txt) to your Script folder.
+1) Move [Script\bugfix.txt](Script/bugfix.txt) to your Script folder.
 2) Open **TombIDE** or **NG Center**.
 3) Locate your level, starting with **[Level]**
 4) Add the following line: #INCLUDE "bugfix.txt"
@@ -59,6 +59,8 @@ Name= My First Level
 LoadCamera= 0, 0, 0, 0, 0, 0, 255
 Level= data\MyFirstLevel, 100
 ```
+
+If you need an additional example, check out [Script/Example_Script.txt](Script/Example_Script.txt).
 
 
 # 2. FAQ
