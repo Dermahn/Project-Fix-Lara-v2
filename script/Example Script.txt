@@ -1,0 +1,66 @@
+﻿;**************************************
+;
+; Tomb Raider IV Script File
+; Release Version 1.00
+;
+;**************************************
+
+;--------------------------------------
+; Platform Definitions
+;--------------------------------------
+
+[PSXExtensions]
+Level=	.PSX
+Cut=	.CUT
+FMV=	.FMV
+
+[PCExtensions]
+Level=	.TR4
+Cut=	.TR4
+FMV=	.BIK
+
+;--------------------------------------
+; Language Filenames
+;--------------------------------------
+
+[Language]
+File=	0,ENGLISH.TXT
+
+;--------------------------------------
+; Options
+;--------------------------------------
+
+[Options]
+LoadSave=	ENABLED
+Title=		ENABLED
+PlayAnyLevel=	ENABLED
+InputTimeout=	18000		; frames * seconds = 60x30
+FlyCheat=	ENABLED
+Security=	$55
+DemoDisc=	DISABLED
+
+;--------------------------------------
+; Title
+;--------------------------------------
+
+[Title]
+LoadCamera=	84246,-533,78233,81622,-1514,78208,40	;src x,y,z target x,y,z, room
+Level=		DATA\TITLE,104
+
+[Level]
+#INCLUDE "bugfix.txt"
+Name=		Playable Tutorial Level
+Legend=		The year 2000, somewhere in Egypt...
+Horizon=	ENABLED
+Layer1=		160,160,192,7
+PuzzleCombo=	3,1,Cartouche Piece 1,	$0000,$0400,$0000,$0000,$0000,$0002
+PuzzleCombo=	3,2,Cartouche Piece 2,	$0000,$0400,$0000,$0000,$0000,$0002
+Puzzle=		3,Ba Cartouche,		$0000,$0400,$0000,$0000,$0000,$0002
+Puzzle=		5,Eye Of Horus,		$0017,$0500,$0000,$0000,$0000,$0002
+PuzzleCombo=	5,1,Eye Piece,		$0017,$0500,$0000,$0000,$0000,$0002
+PuzzleCombo=	5,2,Eye Piece,		$0017,$0500,$0000,$0000,$0000,$0002
+Puzzle=		6,The Hand Of Orion,	$0000,$0400,$8000,$c000,$0000,$0002
+Puzzle=		8,The Hand Of Sirius,	$0000,$0400,$8000,$c000,$0000,$0002
+LoadCamera=	0,0,0,0,0,0,255
+LoadCamera=	11088,-1100,28896,11119,-1399,31486,0
+Level=		DATA\TUT1,107
