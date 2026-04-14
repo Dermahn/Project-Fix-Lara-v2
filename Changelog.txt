@@ -1,4 +1,26 @@
 ====================================
+Project Fix Lara v2.5.0 - 2026-04-14
+====================================
+SCRIPT
+- Slightly cleaned up bugfix.txt
+- Made clear inventory background optional due to possible conflicts with FLEP's own implementation
+
+FLEP
+- Added the following patches:
+   - Hardware Acceleration preselection
+   - Fix load.bmp stretching
+   - Fix bad baboon attack check
+   - Fix baboon bug
+   - Fix loading level bug
+   - Fix Spot Light
+   - Fix Crossbow firing from LaserSight
+   - Fix OldFlip 14 and 15
+   - Fix shatter bug
+
+ANIMATIONS SPREADSHEET
+- Split animations by game to reduce lag and load times
+
+====================================
 Project Fix Lara v2.4.0 - 2023-02-03
 ====================================
 

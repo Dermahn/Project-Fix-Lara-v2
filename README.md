@@ -1,6 +1,6 @@
 # TRLE - Project Fix Lara <!-- omit in toc -->
 
-This project aims to fix all of the little bugs and oddities in Lara's animations. While it is sometimes impossible to know what the devolopers intended, the project aims to to stick as close to the base animations as possible. However, it is impossible to avoid subjective changes. Project Fix Lara should merely be uses as a basis for every new project, before new animations are added and old animations are altered to fit each builder's personal style.
+This project aims to fix all of the little bugs and oddities in Lara's animations. The project aims to stick as close to Core's original vision as possible. That's why the changes are mostly limited to missing sound effects and other animation effects. Project Fix Lara should merely be used as a basis for every new project, before new animations are added and old animations are altered to fit each builder's personal style.
 
 # Table of contents <!-- omit in toc -->
 - [1. Installation](#1-installation)
